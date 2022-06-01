@@ -110,6 +110,8 @@ body{
    
 }
 
+
+
 .menu-item:not(:last-child){
     margin-right: 50px;
 }
@@ -172,6 +174,11 @@ body{
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images/background.jpg);
+    background-size: 1600px,cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-text{
@@ -568,3 +575,86 @@ body{
     
     color: var(--accent-color-gray);
 }
+/* header-icon*/
+.icon{
+    padding-right: 10px;
+    border: 0;
+    fill:rgba(117, 117, 117, 1);
+    background-color: #FFFFFF;
+   
+   
+}
+
+.menu-icon{
+    width: 16px;
+    height: 12px;
+}
+.icon:hover{
+    fill: rgba(33, 150, 243, 1);
+    
+}
+
+/* our benefits */
+
+.main-icon{
+    padding: 25px 100px;
+    border: 0;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    
+}
+
+.main-menu-icon{
+    width: 65px;
+    height: 70px;
+    
+   
+}
+
+.our-klients{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+    
+}
+
+.klients-list{
+    display: flex;
+    
+    
+    
+}
+
+.main-klients{
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-right: 30px;
+    width: 170px;
+    height: 92px;
+    
+}
+
+.klients-menu-icon{
+    
+  
+    fill:rgba(117, 117, 117, 1);
+    width: 106px;
+    height: 60px;
+    margin-left:32px;
+    margin-top: 16px;
+    margin-right: 32px;
+    margin-bottom: 16px;
+}
+
+.klients-menu-icon:hover{
+    fill:rgba(33, 150, 243, 1)
+}
+.company-name{
+    display: flex;
+}
+.company-name:hover{
+    background-color: #000;
+}
+
+
