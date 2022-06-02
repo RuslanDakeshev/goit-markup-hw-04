@@ -170,7 +170,7 @@ body{
 
 .hero{
     text-transform: uppercase;
-    background-color: #2F303A;
+    background-color: rgba(196, 196, 196, 1);
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -370,6 +370,7 @@ body{
     
     color:var(--accent-color-gray);
     margin-top: 10px;
+    margin-bottom: 16px;
 }
 
 /*futter*/
@@ -655,6 +656,47 @@ body{
 }
 .company-name:hover{
     background-color: #000;
+}
+
+.social-link-list:hover .klients-menu-icon,
+.social-link-list:fokus .klients-menu-icon{
+
+    background-color: #212121;
+
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #2196F3;
+    fill: rgba(255, 255, 255, 1);
+}
+
+.social-list-icon {
+    fill: rgba(175, 177, 184, 1);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: rgba(255, 255, 255, 1)
 }
 
 
