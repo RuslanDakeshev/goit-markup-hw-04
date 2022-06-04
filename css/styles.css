@@ -379,6 +379,7 @@ body{
     background-color: #2F303A;
     padding: 60px 0;
     
+    
 }
 
 
@@ -393,7 +394,17 @@ body{
 }
 
 .adres{
+    display: flex;
+    flex-direction: column;
     font-style: normal;
+    margin-top: 60px;
+}
+
+
+
+
+
+.adres-list{
     margin-top: 20px;
 }
 
@@ -723,35 +734,62 @@ body{
    
 }
 
-.social-list-futer{
+
+
+.futer-link {
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    margin-left: 70px;
+
+
 }
 
 .futer-text{
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.container-flex{
     display: flex;
-    flex-direction: column;
+    align-items: center
+    
 }
 
 
 
 
-
-.social-link-futer{
-   /* display: flex;
-   justify-content: center;
-   margin-bottom: 20px;*/
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: black
+.social-list-futer{
+    margin-top: 100px;
 }
+
+
+.social-list-link-futer{
+
+display: flex;
+align-items: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.1);
+fill: rgba(255, 255, 255, 1)
+
+}
+
+  
+.social-list-link-futer:hover,
+.social-list-link-futer:focus{
+    background: #2196F3;
+}
+
 
 
