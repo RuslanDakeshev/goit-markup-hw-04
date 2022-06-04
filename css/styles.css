@@ -107,7 +107,12 @@ body{
 .menu{
     display: flex;
     margin-left: 93px;
+
    
+}
+
+.menu-item .current{
+    color: var(--accent-color)
 }
 
 
